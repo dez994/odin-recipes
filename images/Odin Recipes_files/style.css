@@ -1,0 +1,20 @@
+/* stylesheet */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list {
+    font-size: 30px;
+    display: inline;
+    text-align: center;
+    padding: 5px;
+}
+
+.cooking {
+    display: block;
+    border: 5px solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40% ;
+
+}
