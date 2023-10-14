@@ -2,6 +2,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     background-color: aqua;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -15,6 +16,17 @@ h1 {
     padding: 5px;
 }
 
+.list {
+
+    margin: 3px;
+    border: 3px solid blue;
+    padding: 15px;
+}
+
+a {
+    color: grey;
+}
+
 .food {
     display: block;
     border: 5px solid;
@@ -23,10 +35,10 @@ h1 {
 }
 
 .itemimg {
-    display: block;
     border: 5px solid;
     margin-left: auto;
     margin-right: auto;
+    display: block;
 }
 
 .all {
@@ -42,6 +54,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     line-height: 2;
+
 }
 
 .nodot {
@@ -49,6 +62,10 @@ h1 {
     padding-left: 5px;
 }
 
-.small{
+.small {
     font-size: 14px;
+}
+
+.gold {
+    color: gold;
 }
